@@ -1,6 +1,16 @@
 {
   "cells": [
     {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Fecry/MetNumUN2024I/blob/main/Lab2\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
       "cell_type": "code",
       "source": [
         "!pip install -U fortran-magic"
@@ -895,7 +905,7 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "TbsUYlDE3w6L",
-        "outputId": "76341509-1dd7-4e45-fb74-70c5b06baa68"
+        "outputId": "d2480700-1ceb-4432-9421-1a281ab6fe0d"
       },
       "execution_count": null,
       "outputs": [
@@ -903,8 +913,8 @@
           "output_type": "stream",
           "name": "stdout",
           "text": [
-            "CPU times: user 0 ns, sys: 34 µs, total: 34 µs\n",
-            "Wall time: 39.1 µs\n"
+            "CPU times: user 16 µs, sys: 1e+03 ns, total: 17 µs\n",
+            "Wall time: 18.4 µs\n"
           ]
         }
       ]
@@ -929,7 +939,7 @@
           "base_uri": "https://localhost:8080/",
           "height": 141
         },
-        "outputId": "ee95a70c-c4c8-48ce-b10d-0a5ca5df8613"
+        "outputId": "6937cfbf-095e-48e3-99fb-d533102e589a"
       },
       "execution_count": null,
       "outputs": [
@@ -940,7 +950,7 @@
           "traceback": [
             "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
             "\u001b[0;31mNameError\u001b[0m                                 Traceback (most recent call last)",
-            "\u001b[0;32m<ipython-input-50-4734d12f512d>\u001b[0m in \u001b[0;36m<cell line: 1>\u001b[0;34m()\u001b[0m\n\u001b[0;32m----> 1\u001b[0;31m \u001b[0mmatmulUpdate\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0ma\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0mb\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m",
+            "\u001b[0;32m<ipython-input-53-4734d12f512d>\u001b[0m in \u001b[0;36m<cell line: 1>\u001b[0;34m()\u001b[0m\n\u001b[0;32m----> 1\u001b[0;31m \u001b[0mmatmulUpdate\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0ma\u001b[0m\u001b[0;34m,\u001b[0m\u001b[0mb\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m",
             "\u001b[0;31mNameError\u001b[0m: name 'matmulUpdate' is not defined"
           ]
         }
@@ -4683,7 +4693,8 @@
         "JHmGF_mGiXcZ",
         "-6jsBAhQiXcg",
         "_u_fG58UiXcg"
-      ]
+      ],
+      "include_colab_link": true
     }
   },
   "nbformat": 4,
